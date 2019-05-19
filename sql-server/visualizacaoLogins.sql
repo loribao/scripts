@@ -17,3 +17,5 @@ FROM
     sys.dm_exec_sessions 
 WHERE
     login_name NOT IN ('sa', 'AUTORIDADE NT\SISTEMA', 'NT AUTHORITY\SYSTEM')
+go
+sp_who2
